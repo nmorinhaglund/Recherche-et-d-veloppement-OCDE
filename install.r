@@ -1,3 +1,5 @@
+install.packages("IRkernel")
+IRkernel::installspec(user = FALSE)
 install.packages("ggplot2")
 install.packages("dplyr")
 install.packages("shiny")
